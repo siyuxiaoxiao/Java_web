@@ -1,0 +1,267 @@
+﻿@charset "utf-8";
+    * {
+        padding: 0;
+        margin: 0;
+    } 
+   
+    /*主体部分*/
+	body{
+	background-color:#FFF;
+
+	}
+
+#header
+{
+	width:100%;
+	height:200px;
+}
+#top
+{
+	width:100%;
+	height:30px;
+	border-bottom:#CCC solid 2px;
+}
+#top Center
+{
+	width:960px;
+	margin:0 auto;
+	text-align:right;
+	line-height:30px;
+}
+#wrap
+{
+	width:960px;
+	margin:0 auto;
+	height:120px;
+}
+#logo
+{
+	width:300px;
+	height:120px;
+	float:left;
+}
+
+#search
+{
+	width:300px;
+	height:50px;
+	float:right;
+	padding-top:50px;
+}
+
+#menuBar
+   {
+	width:100%;
+	height:40px;
+	background-color:#30C;
+	clear:both;
+}
+
+#menu {
+        width    : 960px;
+        height   : 40px;
+		overflow : hidden;
+	    margin:0 auto;
+}
+ 
+.menu-wrap  li {
+        width: 160px;
+        height: 40px;
+	float:left;
+	list-style-type:none;
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+        overflow: hidden;
+        position: relative;
+
+}
+.menu-wrap li a
+{
+	color:#FFF;
+	text-decoration:none;
+	height:100%;
+	display:block;
+}
+.menu-wrap li a:hover
+{
+	background-color:#6CC;
+}
+
+#content
+{
+	width:960px;
+	margin:0 auto; /*居中*/
+	height:500px;
+}
+
+/*新闻栏目*/
+#news
+{
+	width:100%;
+	height:200px;
+}
+#fader /*滚动新闻*/
+{
+	float:left;
+	width:500px;
+	height:100%;
+}
+
+#bulliten
+{
+	float:right;
+	width:400px;
+	height:100%;
+}
+
+.title1
+{
+	width:100%;
+	border-bottom:#CCC solid 3px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.title1 span
+{
+	width:100px;
+	float:right;
+	font-size:16px;
+	color:#999;
+}
+
+#bulliten ul
+{
+	width:90%;
+	float:right;
+	margin-top:5px;
+}
+
+#bulliten ul li
+{
+	width:100%;
+	height:20px;
+	font-size:14px;
+}
+#bulliten ul li span{float:right}
+
+/*下方的内容栏*/
+#cbottom
+{
+	width:100%;
+	height:300px;
+	margin-top:10px;
+}
+
+#cleft /*课程信息栏*/
+{
+	width:460px;
+	float:left;
+}
+
+#cright/*教师信息*/
+{
+	width:460px;
+	float:right;
+}
+
+.title2
+{
+	width:100%;
+	display:block;
+	background-color:#039;
+	font-size:20px;
+	font-weight:bold;
+	line-height:30px;
+	color:#FFF;
+	height:30px;
+	padding-left:20px;
+}
+
+.title2 span
+{
+	width:100px;
+	float:right;
+	font-size:16px;
+	color:#999;
+}
+.student_works{
+	float: left;
+}
+.title3
+{
+	font-size:14px;
+	font-weight:bold;
+}
+.resoures{
+	background-color: darkgrey;
+}
+.tea_intro{
+	text-indent: 2em;
+}
+body{
+	margin: 0 auto;
+
+}
+.header{
+	width: 100%;
+	height: 48px;
+	background-color: #003399;
+}
+#rightNav
+{
+    margin-left:200px;
+    width:auto;
+    height:100%;
+    background-color:#F4F4EA
+}
+#leftBar
+{
+    width:200px;
+    height:100%;
+    background-color:#BDF;
+    float:left;
+}
+.body .left{
+	width: 20%;
+	background-color: #66CCCC;
+	height: 100%;
+	top: 48px;
+	float: left;
+}
+.body .right{
+	width: 80%;
+	height: 100%;
+	bottom: 0;
+	float: right;
+	background-color: rgba(146, 153, 149, 0.16);
+}
+.body .menu{
+	line-height: 2;
+	margin-top: 17px;
+	width: 113px;
+	height: 32px;
+	text-align: center;
+	background-color: #FFFFFF;
+
+
+}
+.title_1{
+	text-align: center;
+	margin: 0 auto;
+}
+.center{
+	margin: 0 auto;
+}
+.table_w{
+	width: 100px;
+}
+.footer{
+	width: 100%;
+	height: 48px;
+	background-color: #999999;
+
+}
